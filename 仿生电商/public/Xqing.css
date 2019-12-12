@@ -1,0 +1,337 @@
+body html {
+  height: 100%;
+}
+body {
+  display: flax;
+  flex-direction: column;
+}
+em {
+  font-style: normal;
+}
+
+.jian1 {
+  border-bottom: solid 1px silver;
+  height: 3rem;
+  font-size: .3rem;
+  width: 100%;
+}
+.jian1 p {
+    font-size: .4rem;
+    line-height: 1rem;
+}
+.jian1-1 {
+  font-size: 0.8rem;
+  margin-left: 1rem;
+}
+.jian1 i {
+  font-size: .4rem;
+  color: #7d7e80;
+  font-style: normal;
+}
+.jian1 span {
+  font-size: 1rem;
+  border: 1px solid #ff632a;
+  color: #ff632a;
+  margin-right: 0.4rem;
+  margin-top: 0.5rem;
+  display: block;
+  text-align: center;
+}
+/* 简介的内容 */
+.conter h5 {
+  font-size: .8rem;
+  color: #3c4a55;
+}
+.conter p {
+  font-size: .5rem;
+  color: #70788c;
+}
+
+/* 目录的内容 */
+/* 第一个 */
+.mu1 {
+  height: 10rem;
+}
+.mu1 h1 {
+  width: 100%;
+  font-size: .5rem;
+  height: 2rem;
+  line-height: 2rem;
+  background: #f7f9fc;
+}
+.mu1-1 {
+  height: 2rem;
+}
+.mu1-1 i {
+  display: block;
+  border: solid 1px;
+  font-size: 0.4rem;
+  font-style: normal;
+  margin-left: 1rem;
+  float: left;
+}
+.mu1-1 p {
+  float: left;
+  font-size: .5rem;
+  width: 5rem;
+  height: 4rem;
+  margin-left: 1rem;
+}
+.mu1-1 em {
+  font-size: 1rem;
+  float: left;
+  color: #2cc17b;
+  margin-top: 1rem;
+}
+
+/* 第二个 */
+.mu2 {
+  height: 20rem;
+}
+.mu2 h2 {
+  width: 100%;
+  font-size: 1.2rem;
+  height: 3rem;
+  line-height: 3rem;
+  background: #f7f9fc;
+}
+.mu2-1 {
+  height: 4rem;
+  border-bottom: solid 1px #eff2f9;
+}
+.mu2-1 i {
+  display: block;
+  border: solid 1px;
+  width: 2.2rem;
+  height: 1.3rem;
+  font-size: 0.95rem;
+  font-style: normal;
+  margin-left: 2rem;
+  float: left;
+}
+.mu2-1 p {
+  float: left;
+  font-size: 1rem;
+  width: 13rem;
+  height: 4rem;
+  margin-left: 1rem;
+  margin-top: -1rem;
+}
+.mu2-1 em {
+  font-size: 1rem;
+  float: left;
+  color: #2cc17b;
+  margin-top: 1rem;
+}
+
+.mu2-2 {
+  height: 4rem;
+  border-bottom: solid 1px #eff2f9;
+}
+.mu2-2 i {
+  display: block;
+  border: solid 1px;
+  width: 2.2rem;
+  height: 1.3rem;
+  font-size: 0.95rem;
+  font-style: normal;
+  margin-left: 2rem;
+  float: left;
+}
+.mu2-2 p {
+  float: left;
+  font-size: 1rem;
+  width: 13rem;
+  height: 4rem;
+  margin-left: 1rem;
+  margin-top: -1rem;
+}
+.mu2-2 em {
+  font-size: 1rem;
+  float: left;
+  color: #2cc17b;
+  margin-top: 1rem;
+}
+
+.mu2-3 {
+  height: 4rem;
+  border-bottom: solid 1px #eff2f9;
+}
+.mu2-3 i {
+  display: block;
+  border: solid 1px #cfcfcf;
+  width: 2.2rem;
+  height: 1.3rem;
+  font-size: 0.95rem;
+  font-style: normal;
+  margin-left: 2rem;
+  float: left;
+  color: #cfcfcf;
+}
+.mu2-3 p {
+  float: left;
+  font-size: 1rem;
+  height: 4rem;
+  margin-left: 1rem;
+  margin-top: -1rem;
+  color: #cfcfcf;
+  margin-left: 5rem;
+}
+
+.mu2-4 {
+  height: 4rem;
+  border-bottom: solid 1px #eff2f9;
+}
+.mu2-4 i {
+  display: block;
+  border: solid 1px #cfcfcf;
+  width: 2.2rem;
+  height: 1.3rem;
+  font-size: 0.95rem;
+  font-style: normal;
+  margin-left: 2rem;
+  float: left;
+  color: #cfcfcf;
+}
+.mu2-4 p {
+  float: left;
+  font-size: 1rem;
+  height: 4rem;
+  margin-left: 1rem;
+  margin-top: -1rem;
+  color: #cfcfcf;
+  margin-left: 5rem;
+}
+
+/* 第三个 */
+.mu3 {
+  height: 10rem;
+}
+.mu3 h1 {
+  width: 100%;
+  font-size: 1.2rem;
+  height: 3rem;
+  line-height: 3rem;
+  background: #f7f9fc;
+  margin-left: 1rem;
+}
+.mu3-1 {
+  height: 4rem;
+  border-bottom: solid 1px #eff2f9;
+}
+.mu3-1 i {
+  display: block;
+  border: solid 1px #cfcfcf;
+  width: 2.2rem;
+  height: 1.3rem;
+  font-size: 0.95rem;
+  font-style: normal;
+  margin-left: 2rem;
+  float: left;
+  color: #cfcfcf;
+}
+.mu3-1 p {
+  float: left;
+  font-size: 1rem;
+  width: 13rem;
+  height: 4rem;
+  margin-left: 1rem;
+  color: #cfcfcf;
+}
+
+/* 评价 */
+.ping {
+  width: 100%;
+  height: 6.8rem;
+  overflow: hidden;
+}
+.ping h2 {
+  font-size: 1.1rem;
+  color: #333740;
+  float: left;
+}
+.ping h3 {
+  font-size: 1rem;
+  color: #a4a9b2;
+  float: right;
+}
+.ping strong {
+  font-size: 4rem;
+  display: block;
+  margin-top: 2rem;
+}
+.ping1 {
+  width: 100%;
+  height: 5rem;
+}
+.ping1 span {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: block;
+  float: left;
+  background: #dddddd;
+}
+.ping1 h1 {
+  width: 50%;
+  float: left;
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+.ping1 p {
+  font-size: 1rem;
+  line-height: 0rem;
+  color: #70788c;
+}
+.ping1 i {
+  font-size: 1rem;
+  margin-top: -1rem;
+  color: #70788c;
+}
+.ping1 em {
+  font-size: 1rem;
+  color: #70788c;
+}
+
+.ping2 {
+  width: 100%;
+  height: 10rem;
+}
+.ping2-1 {
+  width: 100%;
+  height: 5rem;
+}
+.ping2-1 span {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: block;
+  background: #dddddd;
+}
+.ping2-1 h1 {
+  width: 50%;
+  float: left;
+  font-size: .5rem;
+  margin-left: 5rem;
+  margin-top: -2rem;
+}
+.ping2-1 p {
+  font-size: 1rem;
+  line-height: 0rem;
+  color: #70788c;
+}
+.ping2-1 i {
+  font-size: 1rem;
+  margin-top: -1rem;
+  color: #70788c;
+}
+.ping2-1 em {
+  font-size: 1rem;
+  color: #70788c;
+}
+.conter1 {
+  height: 4.6rem;
+  margin-left: 3rem;
+  width: 80%;
+}
+
